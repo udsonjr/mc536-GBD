@@ -5,8 +5,7 @@
 
 ## Motivação e Contexto
 
-Já esteve disposto à perder peso e/ou ganhar massa muscular? Se sim, deve ter esbarrado na dificuldade de encontrar receitas gostosas e variadas para incluir na sua rotina. 
-Com isso em mente, o projeto busca conciliar variadas receitas com demandas nutricionais específicas.
+Este projeto tem como objetivo a integração de diversas receitas com exigências nutricionais específicas, fornecendo informações sobre os teores de macronutrientes, tais como proteínas, carboidratos e gorduras. Esse recurso pode facilitar a formulação de dietas personalizadas com metas específicas. Além disso, os dados referentes à composição química dos alimentos podem ser aplicados para elaborar planos alimentares adequados a pessoas com restrições alimentares, como a intolerância à lactose.
 
 ## Bases de Dados
 
