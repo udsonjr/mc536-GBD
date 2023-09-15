@@ -50,6 +50,10 @@ INGREDIENT(_id_, food_id, recipe_id, concentration, unit)
 #### Pergunta/Análise 3
 * Qual o conteúdo nutricional de uma receita   
    * Este seria o processo inverso, dada uma receita, quais as informações nutricionais dela?.
+ 
+#### Pergunta/Análise 4
+* Uma certa receita é recomendável para uma pessoa com restrições alimentares (ex: intolerância à lactose)?
+   * Utilizando os ingredientes da receita podemos analisar sua composição química e confirmar se possuem ou não lactose
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
