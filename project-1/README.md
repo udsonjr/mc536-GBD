@@ -5,14 +5,16 @@
 
 ## Motivação e Contexto
 
-> Descrição do tema do projeto, incluindo motivação e contexto gerador.
+Já esteve disposto à perder peso e/ou ganhar massa muscular? Se sim, deve ter esbarrado na dificuldade de encontrar receitas gostosas e variadas para incluir na sua rotina. 
+Com isso em mente, o projeto busca conciliar variadas receitas com demandas nutricionais específicas.
 
 ## Bases de Dados
-> Elencar as bases de dados fonte utilizadas no projeto.
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`<título da base>` | `<link para a página da base>` | `<breve descrição da base>`
+`FoodDB` | `https://foodb.ca` | `base de dados sobre alimentos, sua química, seus ingredientes e nutrientes`
+`RecipeNLG` | `https://recipenlg.cs.put.poznan.pl/dataset` | `base de dados com variadas receitas, incluindo o seu modo de preparo, ingredientes e porções`
+
 
 ## Modelo Conceitual
 
