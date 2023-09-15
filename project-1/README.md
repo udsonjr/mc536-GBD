@@ -60,7 +60,7 @@ INGREDIENT(_id_, food_id, recipe_id, concentration, unit)
 ### Perguntas/Análise Propostas mas Não Implementadas
 
 #### Pergunta/Análise 1
-* Baseado em uma dieta de um determinado consumidor, com foco em hipertrofia, quais alimentos são recomendados para adição em sua dieta? 
+* Baseado em uma dieta de um determinado consumidor, com foco em ganho de massa muscular, quais alimentos são recomendados para adição em sua dieta? 
 
    * Utilizando a análise de nutrientes dos alimentos (utilizada nas questões implementadas), poderia ser criada uma nova tabela contendo a distribuição nutricional da dieta de um consumidor para verificar quais são os alimentos mais recomendados para inserção em sua dieta baseado na proporção de macronutrientes presentes nele, em termos gerais, a proporção de gorduras, proteínas e carboidratos.
 
