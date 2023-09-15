@@ -40,7 +40,7 @@ INGREDIENT(_id_, food_id, recipe_id, concentration, unit)
 
 ## Perguntas de Pesquisa/Análise
 #### Pergunta/Análise 1
-* Quais receitas são ideais para um objetivo de hipertrofia
+* Quais receitas são ideais para um objetivo de hipertrofia?
    * Para uma demanda específica de nutrientes em uma dade proporção (proteína, fibra, etc), quais receitas cumprem o requisito?.
 
 #### Pergunta/Análise 2
@@ -49,26 +49,28 @@ INGREDIENT(_id_, food_id, recipe_id, concentration, unit)
 
 #### Pergunta/Análise 3
 * Qual o conteúdo nutricional de uma receita   
+
    * Este seria o processo inverso, dada uma receita, quais as informações nutricionais dela?.
  
 #### Pergunta/Análise 4
 * Uma certa receita é recomendável para uma pessoa com restrições alimentares (ex: intolerância à lactose)?
-   * Utilizando os ingredientes da receita podemos analisar sua composição química e confirmar se possuem ou não lactose
+
+   * Utilizando os ingredientes da receita podemos analisar sua composição química e confirmar se possuem ou não lactose.
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
 #### Pergunta/Análise 1
-> * Pergunta 1
->   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+* Baseado em uma dieta de um determinado consumidor, com foco em hipertrofia, quais alimentos são recomendados para adição em sua dieta? 
+
+   * Utilizando a análise de nutrientes dos alimentos (utilizada nas questões implementadas), poderia ser criada uma nova tabela contendo a distribuição nutricional da dieta de um consumidor para verificar quais são os alimentos mais recomendados para inserção em sua dieta baseado na proporção de macronutrientes presentes nele, em termos gerais, a proporção de gorduras, proteínas e carboidratos.
 
 #### Pergunta/Análise 2
-> * Pergunta 2
->   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+* Continuando a questão anterior, utilizando os alimentos recomendados para determinado consumidor, quais receitas tabeladas poderiam ser encaixadas em sua dieta?
+   
+   * Tomando como base os alimentos com boas proporções de macronutrientes, poderíamos compará-los aos ingredientes das receitas na base de dados, definindo quais receitas poderiam ser utilizadas na dieta do consumidor sem que haja déficit ou superávit calórico.
 
 #### Pergunta/Análise 3
-> * Pergunta 3
->   
->   * Explicação em linhas gerais de como a base pode ser usada para responder esta pergunta e a sua relevância.
+* Tendo em mãos os alimentos e receitas recomendados para a dieta de um determinado consumidor, como podemos definir a intesidade/quantidade de exercício físico necessário para a manutenção de suas calorias diárias?
+  
+  * Em uma possível tabela contendo as informações nutricionais de um consumidor (a mesma que deveria ser implementada na análise proposta 1), poderíamos comparar o quantitativo calórico consumido em um dia com a quantidade de calorias diárias a serem ingeridas, de forma a determinar o gasto calórico necessário para abatermos um potencial superávit calórico. Para tanto, uma última tabela deveria ser implementada, de forma a relacionar diversas atividades físicas comumente praticadas e seu respectivo gasto calórico por tempo praticado.
 
