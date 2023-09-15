@@ -12,8 +12,8 @@ Com isso em mente, o projeto busca conciliar variadas receitas com demandas nutr
 
 título da base | link | breve descrição
 ----- | ----- | -----
-`FoodDB` | `https://foodb.ca` | `base de dados sobre alimentos, sua química, seus ingredientes e nutrientes`
-`RecipeNLG` | `https://recipenlg.cs.put.poznan.pl/dataset` | `base de dados com variadas receitas, incluindo o seu modo de preparo, ingredientes e porções`
+FoodDB | https://foodb.ca | base de dados sobre alimentos, sua química, seus ingredientes e nutrientes
+RecipeNLG | https://recipenlg.cs.put.poznan.pl/dataset | base de dados com variadas receitas, incluindo o seu modo de preparo, ingredientes e porções
 
 
 ## Modelo Conceitual
