@@ -18,37 +18,38 @@ RecipeNLG | https://recipenlg.cs.put.poznan.pl/dataset | base de dados com varia
 
 ## Modelo Conceitual
 
-![ER Taxi](images/er.png)
+![ER Receitas](images/er.png)
 
 ## Modelos Lógicos
 
-> Coloque aqui o modelo lógico relacional dos bancos de dados relacionados ao modelos conceitual. Sugere-se o formato a seguir.
-
-> Exemplo de modelo lógico relacional
 ~~~
-PESSOA(_Código_, Nome, Telefone)
-ARMÁRIO(_Código_, Tamanho, Ocupante)
-  Ocupante chave estrangeira -> PESSOA(Código)
+FOODS(_id_, name, name_scientific, description)
+
+CONTENTS_FOOD(source_id, food_id, orig_food_common_name, concentration, unit)
+  food_id chave estrangeira -> FOODS(id)
+  source_id -> NUTRIENTS(id)
+
+NUTRIENTS(_id_, name, description)
+
+RECIPE(_id_, name, instructions, source)
+
+INGREDIENT(_id_, food_id, recipe_id, concentration, unit)
+  food_id chave estrangeira -> FOODS(id)
+  recipe_id -> RECIPE(id)
 ~~~
 
 ## Perguntas de Pesquisa/Análise
-
-> Liste aqui as perguntas de pesquisa/análise. Nem todas as perguntas precisam de implementação associada. É possível haver perguntas em que a solução é apenas descrita para demonstrar o potencial da base. Abaixo são ilustradas três perguntas, mas pode ser um número maior a critério da equipe.
-
 #### Pergunta/Análise 1
-> * Pergunta 1
->   
->   * Explicação sucinta da análise que será feita.
+* Quais receitas são ideais para um objetivo de hipertrofia
+   * Para uma demanda específica de nutrientes em uma dade proporção (proteína, fibra, etc), quais receitas cumprem o requisito?.
 
 #### Pergunta/Análise 2
-> * Pergunta 2
->   
->   * Explicação sucinta da análise que será feita.
+* Quais receitas são possíveis de se fazer a partir de ingredientes disponíveis?
+  * Por exemplo, a partir de ingredientes disponíveis na sua cozinha, quais receitas você pode fazer, com determinadas demandas nutricionais.
 
 #### Pergunta/Análise 3
-> * Pergunta 3
->   
->   * Explicação sucinta da análise que será feita.
+* Qual o conteúdo nutricional de uma receita   
+   * Este seria o processo inverso, dada uma receita, quais as informações nutricionais dela?.
 
 ### Perguntas/Análise Propostas mas Não Implementadas
 
